@@ -39,6 +39,11 @@
 - Spring Initializr Java Support
 - Test Runner fro Java
 
+## build
+
+`gradle build`
+`gradle clean build`
+
 ## 実行コマンド
 
 - myFooJobを実行
