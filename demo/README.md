@@ -46,14 +46,26 @@
 
 ## 実行コマンド
 
-- myFooJobを実行
+### myFooJobを実行
 
+- cmd
+`java -jar build\libs\demo-0.0.1-SNAPSHOT.jar --spring.batch.job.names=myFooJob --logging.level.root=ERROR`
+
+- powershell
 `java -jar build/libs/demo-0.0.1-SNAPSHOT.jar --spring.batch.job.names=myFooJob --logging.level.root=ERROR`
 
-- myBarJobを実行
+### myBarJobを実行
 
+- cmd
+`java -jar build\libs\demo-0.0.1-SNAPSHOT.jar --spring.batch.job.names=myBarJob --logging.level.root=ERROR`
+
+- powershell
 `java -jar build/libs/demo-0.0.1-SNAPSHOT.jar --spring.batch.job.names=myBarJob --logging.level.root=ERROR`
 
-- 全てのJobを実行
+### 全てのJobを実行
 
+-cmd
+`java -jar build\libs\demo-0.0.1-SNAPSHOT.jar --logging.level.root=ERROR`
+
+- powershell
 `java -jar build/libs/demo-0.0.1-SNAPSHOT.jar --logging.level.root=ERROR`
