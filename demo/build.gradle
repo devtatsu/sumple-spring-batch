@@ -46,6 +46,9 @@ dependencies {
 	testCompileOnly 'junit:junit'//Junit5のBOMからJunit4を入れなおせば、4以前のテストも競合しないようです
 	testImplementation 'org.junit.jupiter:junit-jupiter'
 	implementation 'org.springframework.boot:spring-boot-starter-validation'
+
+	implementation group: 'com.microsoft.sqlserver', name: 'mssql-jdbc', version: '6.1.0.jre7'
+
 	// lombok
 	implementation lombok
 	compileOnly lombok
@@ -56,6 +59,9 @@ dependencies {
 	compileOnly modelmapper
 	testCompileOnly modelmapper
 	implementation modelmapper
+
+
+
 }
 
 // 文字コード設定（日本語の文字化け対策）
